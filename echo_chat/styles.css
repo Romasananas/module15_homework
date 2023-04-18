@@ -1,0 +1,49 @@
+#chat {
+    display: grid;
+    grid-template-columns: 200px 90px 90px;
+    grid-template-rows: 30px 365px;
+    grid-row-gap: 10px;
+    grid-column-gap: 7px;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 2px;
+    border: solid rgb(17, 209, 129) 3px;
+    border-radius: 10px;
+}
+
+#chatWindow {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#input:focus {
+    outline: none;
+}
+
+.elem {
+    border: solid rgb(165, 221, 187) 3px;
+    border-radius: 5px;
+}
+
+.messageBlock {
+    width: 100%;
+    height: 2em;
+    display: block;
+    position: relative;
+
+}
+
+.messageText {
+    padding: 3px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    display: inline-block;
+    border: solid rgb(17, 209, 129) 2px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(102, 206, 171);
+}
